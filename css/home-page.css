@@ -223,6 +223,7 @@ p {
   .header-wrapper__boxed:hover {
     background-color: var(--black-bg-color);
     color: var(--white-bg-color);
+    transition: background-color 0.5s ease-out;
   }
 
   .header-wrapper__boxed {

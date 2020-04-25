@@ -233,6 +233,12 @@ p {
     bottom: 0;
   }
 
+  .header--box:hover {
+    background-color: var(--black-bg-color);
+    color: var(--white-bg-color);
+    transition: background-color 0.5s ease-out;
+  }
+
   .header__img {
     height: 600px;
     margin: 0 auto;
