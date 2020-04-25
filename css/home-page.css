@@ -80,14 +80,14 @@ p {
   margin-bottom: 2rem;
 }
 
-.header-section button {
+.header__button {
   width: 167px;
   height: 43px;
   border: 2px solid #fff;
   background-color: transparent;
 }
 
-.header-section button a {
+.header__button a {
   color: var(--white-txt-color, #fff);
   font-family: "Abel", sans-serif;
   font-size: 1.5rem;
@@ -153,7 +153,13 @@ p {
   margin: 2rem auto 2rem auto;
 }
 
-.exhibition-space button {
+.exhibition__button:hover,
+.exhibition__button a:hover {
+  background-color: var(--black-bg-color, #000);
+  color: var(--white-txt-color);
+}
+
+.exhibition__button {
   width: 14.1875rem;
   height: 2.6875rem;
   margin: 0 auto 2.6rem auto;
@@ -161,7 +167,8 @@ p {
   background-color: var(--white-bg-color, #fff);
 }
 
-.exhibition-space button a {
+.exhibition__button a {
+  padding: 0.3rem;
   font-size: 1.5rem;
   color: var(--black-txt-color, #000);
 }
@@ -211,6 +218,11 @@ p {
     background-color: transparent;
     flex-direction: row;
     align-items: end;
+  }
+
+  .header-wrapper__boxed:hover {
+    background-color: var(--black-bg-color);
+    color: var(--white-bg-color);
   }
 
   .header-wrapper__boxed {
