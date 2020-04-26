@@ -109,14 +109,14 @@ textarea {
 .contact form button,
 .contact form input,
 .contact form textarea {
-  padding: 0.5rem;
+  padding: 1rem;
   width: 100%;
   border: 1px solid #7abddf;
+  font-size: 1rem;
 }
 
 .contact--button {
-  border: none;
-  background-color: #7abddf;
+  background-color: #7adfb8;
   color: var(--black-txt-color);
   font-family: "Abel", sans-serif;
   text-transform: uppercase;
@@ -126,7 +126,7 @@ textarea {
 }
 
 .contact--button:hover {
-  background-color: #5888a1;
+  background-color: #66bb9a;
   color: var(--white-txt-color, #fff);
   transition: background-color 0.5s ease-out;
 }
