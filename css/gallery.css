@@ -75,6 +75,7 @@ header .border-green {
     grid-template:
       "1fr 1fr 1fr 1fr 1fr" 33.33vh
       "1fr 1fr 1fr 1fr 1fr" 33.33vh
+      "1fr 1fr 1fr 1fr 1fr" 33.33vh
       "1fr 1fr 1fr 1fr 1fr" 33.33vh;
     grid-gap: 5px;
   }
@@ -86,7 +87,8 @@ header .border-green {
   .box--b,
   .box--f,
   .box--h,
-  .box--j {
+  .box--j,
+  .box--m {
     grid-column: span 2;
   }
 }
