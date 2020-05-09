@@ -69,6 +69,15 @@ header .border-green {
   padding: 0 1rem 2rem 1rem;
 }
 
+.copyright {
+  background-color: var(--blue-bg-color, #5ab9ea);
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
 /* tablet portrait */
 @media only screen and (min-width: 768px) {
   .gallery-container {

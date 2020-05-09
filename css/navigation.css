@@ -31,6 +31,7 @@
   align-items: center;
   position: fixed;
   z-index: 1;
+  box-shadow: 0px 2px 5px -3px rgba(0, 0, 0, 0.75);
 }
 
 .navigation .navigation__list {
@@ -45,10 +46,15 @@
 
 .navigation__list .navigation--active {
   font-weight: 700;
+  color: var(--black-txt-color);
+}
+
+.navigation__link:hover {
+  color: var(--black-txt-color);
 }
 
 .navigation__link {
-  color: var(--black-txt-color, #000);
+  color: rgb(92, 91, 91);
   font-family: urbana, sans-serif;
   font-weight: 300;
   font-size: 1.5625rem;
