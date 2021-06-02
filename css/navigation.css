@@ -24,7 +24,7 @@
   background-color: var(--white-bg-color, #fff);
   top: 65px;
   left: 0;
-  transition: 0.3s;
+  transition: ease-in-out 0.2s;
 }
 
 .navigation__list .navigation--active {
@@ -46,11 +46,6 @@
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.navigation__list > * {
-  margin: 0 auto;
-  width: 18.875rem;
 }
 
 /* nav link border colors */
@@ -84,4 +79,14 @@
 
 .slide {
   transform: translateX(100%);
+}
+
+@media screen and (min-width: 1024px) {
+  /* header wrapper */
+  .slide {
+    transform: translateX(0);
+  }
+  .navigation__list > * {
+    border: none !important;
+  }
 }
