@@ -18,13 +18,13 @@
 }
 
 .navigation .navigation__list {
-  /* display: none; */
   position: absolute;
   width: 100%;
   height: 380px;
   background-color: var(--white-bg-color, #fff);
   top: 65px;
   left: 0;
+  transition: 0.3s;
 }
 
 .navigation__list .navigation--active {
@@ -85,13 +85,6 @@
   cursor: pointer;
 }
 
-/* #hamburger-menu {
-} */
-
-.close {
-  display: none;
-}
-
-.navigation__list {
-  /* display: block; */
+.slide {
+  transform: translateX(100%);
 }
