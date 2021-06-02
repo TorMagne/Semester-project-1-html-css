@@ -1,11 +1,10 @@
 /* urbana font from adobe fonts */
 @import url("https://use.typekit.net/hiv6jdm.css");
-
 /* abel font from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
+@import "variables.css";
 /* mobile navigation */
-
 .navigation {
   background-color: var(--white-bg-color, #fff);
   height: 65px;
@@ -19,7 +18,7 @@
 }
 
 .navigation .navigation__list {
-  display: none;
+  /* display: none; */
   position: absolute;
   width: 100%;
   height: 380px;
@@ -83,12 +82,16 @@
 
 .material-icons {
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
-#hamburger-menu {
+/* #hamburger-menu {
+} */
+
+.close {
   display: none;
 }
 
-#hamburger-menu:checked ~ .navigation__list {
-  display: block;
+.navigation__list {
+  /* display: block; */
 }
