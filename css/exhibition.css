@@ -92,6 +92,7 @@ p {
 .card__img {
   width: 18.875rem;
   height: 12.5rem;
+  object-fit: cover;
 }
 
 .card__content {
@@ -231,12 +232,6 @@ p {
     top: 140px;
     left: 340px;
     bottom: 0;
-  }
-
-  .header--box:hover {
-    background-color: var(--black-bg-color);
-    color: var(--white-bg-color);
-    transition: background-color 0.5s ease-out;
   }
 
   .header__img {
